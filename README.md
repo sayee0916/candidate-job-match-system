@@ -132,7 +132,33 @@ Recommendation
 ```
 Final Score = (30% × TF-IDF Similarity) + (70% × Skill Match)
 ```
+## ▶️ Run Locally
 
+1. Clone the repository
+
+```bash
+git clone https://github.com/sayee0916/candidate-job-match-system.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd candidate-job-match-system
+```
+
+3. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Launch the application
+
+```bash
+streamlit run app.py
+```
+
+---
 
 ## 🔮 Future Improvements
 
