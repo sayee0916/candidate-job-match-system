@@ -23,23 +23,6 @@ https://github.com/sayee0916/candidate-job-match-system
 
 ---
 
-# 🤖 NLP-Based Candidate Job Match System
-
-Python | Streamlit | NLP | TF-IDF
-
-An NLP-based application that compares a Job Description (JD) with a Candidate Resume to estimate the candidate's suitability for the role.
-
----
-
-## 🚀 Live Demo
-
-👉 https://candidate-job-match-system.streamlit.app
-
-📂 GitHub Repository
-
-https://github.com/sayee0916/candidate-job-match-system
-
----
 
 ## 📊 Example Output
 
