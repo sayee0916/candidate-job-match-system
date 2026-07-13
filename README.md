@@ -1,8 +1,25 @@
 # 🤖 NLP-Based Candidate Job Match System
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 An NLP-based application that compares a **Job Description (JD)** with a **Candidate Resume** to estimate the candidate's suitability for the role.
 
 The system uses **TF-IDF Vectorization**, **Cosine Similarity**, and **Skill Matching** to generate a match score, identify matched and missing skills, and provide a hiring recommendation.
+
+---
+
+## 🚀 Live Demo
+
+👉 **Open the application here:**
+
+https://candidate-job-match-system.streamlit.app
+
+## 📂 GitHub Repository
+
+https://github.com/sayee0916/candidate-job-match-system
 
 ---
 
