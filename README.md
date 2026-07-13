@@ -1,13 +1,8 @@
 # 🤖 NLP-Based Candidate Job Match System
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
-![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
-![License](https://img.shields.io/badge/License-MIT-blue)
-
 An NLP-based application that compares a **Job Description (JD)** with a **Candidate Resume** to estimate the candidate's suitability for the role.
 
-The system uses **TF-IDF Vectorization**, **Cosine Similarity**, and **Skill Matching** to generate a match score, identify matched and missing skills, and provide a hiring recommendation.
+The system uses **TF-IDF Vectorization**, **Cosine Similarity**, and **Skill Matching** to generate a match score, identify matched and missing skills, and provide a candidate recommendation.
 
 ---
 
@@ -19,7 +14,7 @@ The system uses **TF-IDF Vectorization**, **Cosine Similarity**, and **Skill Mat
 
 ## 📂 GitHub Repository
 
-https://github.com/sayee0916/candidate-job-match-system
+[📂 View GitHub Repository](https://github.com/sayee0916/candidate-job-match-system)
 
 ---
 
@@ -30,7 +25,8 @@ Tested using my final resume against the provided AI/ML Intern Job Description.
 
 **Match Score:** **48.79%**
 
-**Matched Skills:**
+### ✅ Matched Skills
+
 - Data Analysis
 - Data Preprocessing
 - Machine Learning
@@ -39,13 +35,14 @@ Tested using my final resume against the provided AI/ML Intern Job Description.
 - Python
 - Scikit-Learn
 
-**Missing Skills:**
+### ❌ Missing Skills
+
 - Artificial Intelligence
 - Feature Engineering
 - PyTorch
 - TensorFlow
 
-**Recommendation:** 🟡 Moderate Match
+**Recommendation:** 🟡 **Moderate Match**
 
 ---
 
@@ -59,7 +56,7 @@ Tested using my final resume against the provided AI/ML Intern Job Description.
 - Skill Matching
 - Match Score (0–100%)
 - Matched & Missing Skills
-- Hiring Recommendation
+- Candidate Recommendation
 - Interactive Streamlit Dashboard
 
 ---
@@ -139,6 +136,12 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
+```
+
+The application will be available at:
+
+```
+http://localhost:8501
 ```
 
 ---
