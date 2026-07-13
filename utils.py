@@ -51,6 +51,12 @@ def calculate_similarity(jd_text, resume_text):
 
     return round(cosine * 100,2)
 
+def normalize(text):
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+    
 
 # -----------------------------
 # Extract skills
@@ -59,7 +65,7 @@ import re
 
 def extract_skills(text):
 
-    text = text.lower()
+    text = normalize(text)
 
     aliases = {
         "ai": "artificial intelligence",
@@ -72,9 +78,9 @@ def extract_skills(text):
 
     for skill in SKILLS:
 
-        pattern = r'\b' + re.escape(skill.lower()) + r'\b'
+        skill_normalized = normalize(skill)
 
-        if re.search(pattern, text):
+        if skill_normalized in text:
 
             canonical = aliases.get(skill.lower(), skill.lower())
 
