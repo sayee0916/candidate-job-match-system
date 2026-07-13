@@ -112,6 +112,7 @@ Recommendation
 ```
 Final Score = (30% × TF-IDF Similarity) + (70% × Skill Match)
 ```
+
 ## ▶️ Run Locally
 
 1. Clone the repository
