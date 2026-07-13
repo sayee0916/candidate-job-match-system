@@ -15,7 +15,7 @@ The system uses **TF-IDF Vectorization**, **Cosine Similarity**, and **Skill Mat
 
 👉 **Open the application here:**
 
-https://candidate-job-match-system.streamlit.app
+[🚀 Launch Live Demo](https://candidate-job-match-system.streamlit.app)
 
 ## 📂 GitHub Repository
 
