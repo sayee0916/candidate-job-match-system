@@ -61,7 +61,6 @@ def normalize(text):
 # -----------------------------
 # Extract skills
 # -----------------------------
-import re
 
 def extract_skills(text):
 
